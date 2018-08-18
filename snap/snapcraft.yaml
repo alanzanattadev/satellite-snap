@@ -23,6 +23,7 @@ parts:
       - usr
     stage-packages:
       - nodejs
+      - zip
     override-prime: |
       snapcraftctl prime
       cd opt/satellite/cli
