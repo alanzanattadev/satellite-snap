@@ -35,6 +35,7 @@ apps:
     command: env NODE_PATH=$SNAP/opt/satellite/cli/node_modules nodejs $SNAP/opt/satellite/cli/lib/index.js
     plugs:
       - network
+      - network-bind
       - home
   deploy:
     command: opt/satellite/deploy.sh
