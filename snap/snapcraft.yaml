@@ -1,5 +1,5 @@
 name: satellite # you probably want to 'snapcraft register <name>'
-version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
+version: '0.1.1' # just for humans, typically '1.2+git' or '1.3.2'
 summary: Advanced scalable Open source intelligence platform
 description: |
   Satellite is a scalable platform based on LXD, Kubernetes and Juju, to provide
